@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import { supabase } from "./db.js";
+import {supabase} from "./db.js";
 
 // Cargar variables de entorno
 dotenv.config();

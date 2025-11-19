@@ -1,6 +1,6 @@
 /*import mysql from "mysql2/promise";*/
 import dotenv from "dotenv";
-import { createClient } from "@supabase/supabase-js";
+import {createClient} from "@supabase/supabase-js";
 dotenv.config();
 
 // Crear pool de conexiones con mysql2
