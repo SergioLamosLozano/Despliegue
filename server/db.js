@@ -5,7 +5,7 @@ dotenv.config();
 
 // Crear pool de conexiones con mysql2
 
-export const pool = createClient(
+export const supabase = createClient(
   process.env.SUPABASE_URL,
   process.env.SUPABASE_KEY
 );
